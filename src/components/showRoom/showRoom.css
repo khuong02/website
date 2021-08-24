@@ -1,0 +1,86 @@
+.box-show {
+    width: 100%;
+    height: 100%;
+}
+
+.__box-show {
+    /* padding: 0 2% 0 4%; */
+    position: relative;
+}
+
+.box-show-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.box-show-item .box-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.box-show-item:hover .box-link {
+    opacity: 1;
+}
+
+.box-show-item img {
+    transition: 0.2s ease-in-out;
+}
+
+.box-show-item:hover img {
+    transform: scale(1.08);
+}
+
+.box-show-item .box-link a {
+    color: transparent;
+    transition: 0.25s ease-in-out;
+    font-size: 5px;
+}
+
+.box-show-item:hover .box-link a {
+    color: #fff;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.box-show-item .box-link a span {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+.box-show-item .box-link a i {
+    font-weight: 300;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+/* .right-arrow {
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    font-size: 2.5rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+} */

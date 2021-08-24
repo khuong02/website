@@ -1,0 +1,147 @@
+.contact-page {
+    overflow: hidden;
+}
+
+.contact-header {
+    display: inline-block;
+    position: relative;
+}
+
+.contact-header .box-content {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+.contact-header .box-content h3, h1 {
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+}
+
+.contact-header .box-content h3 {
+    font-size: 3.5em;
+}
+
+.contact-header .box-content h1 {
+    font-size: 6em;
+}
+
+.btn {
+    height: 65px;
+    width: 65px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    transform: rotate(90deg);
+    background-color: rgba(0, 0, 0, 0.377);
+    position: relative;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.btn i {
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 24px;
+    left: 39%;
+    transform: rotate(-90deg);
+}
+
+/* -----------------contact-body---------------------- */
+
+.contact-body {
+    margin-top: 230px;
+    position: relative;
+}
+
+.row {
+    margin-top: 150px;
+    position: relative;
+}
+
+.contact-body .row .box-content {
+    width: 35%;
+    left: 9%;
+    position: absolute;
+    top: 2%;
+    font-weight: 300;
+}
+
+.contact-body .row .box-content h3 {
+    font-size: 20px;
+}
+
+.contact-body .row .box-content p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.contact-body .row .image, .image-footer {
+    position: relative;
+    left: 30%;
+    width: 100%;
+    clip-path: polygon(47% 0%, 100% 0%, 77% 100%, 18% 100%);
+}
+
+.box-country {
+    width: auto;
+    height: auto;
+    padding-left: 4%;
+}
+
+.box-country .box-country-item {
+    display: inline-block;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.box-country .box-country-item .__box-country-item {
+    width: 100%;
+    display: flex;
+}
+
+.box-country .box-country-item .__box-country-item .box-country-content {
+    width: 40%;
+    margin-left: 15px;
+    margin-top: 20px
+}
+
+.box-country .box-country-item .__box-country-item img {
+    max-width: 45%;
+    margin-right: 15px;
+}
+
+.box-content-footer {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 35%;
+    font-weight: 300;
+}
+
+.box-content-footer h3 {
+    font-size: 20px;
+}
+
+.box-content-footer p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.image-footer {
+    left: 25%;
+    width: 115%;
+}
+
+.box-btn {
+    display: flex;
+}
+
+.box-btn p {
+    margin-left: 15px;
+    font-size: 18px;
+}

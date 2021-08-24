@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+    border: none;
+    outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    text-decoration: none;
+    color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+    max-width: 100%;
 }
+
+.pagination nav ul{
+    justify-content: center;
+}
+
+.errShow,.successShow{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.errShow{
+    background-color: tomato;
+}
+
+.successShow{
+    background-color: rgb(49, 218, 49);
+}
+
+/* -------------------------------Welcome--------------------------------- */
+
+@import url(./welcome/welcome.css);
+/* -------------------------------Loading Page Child--------------------------------- */
+
+@import url(./loading/loadingPageChild.css);
+/* -------------------------------Container--------------------------------- */
+
+@import url(./container/container.css);
+/* -------------------------------Header--------------------------------- */
+
+@import url(./header/header.css);
+/* -------------------------------Body--------------------------------- */
+
+@import url(./body/body.css);
+/* -------------------------------Home--------------------------------- */
+
+@import url(./components/home/home.css);
+/* -------------------------------Technology--------------------------------- */
+
+@import url(./components/technology/technology.css);
+/* -------------------------------ShowRoom--------------------------------- */
+
+@import url(./components/showRoom/showRoom.css);
+/* -------------------------------About--------------------------------- */
+
+@import url(./components/about/about.css);
+/* -------------------------------Contact--------------------------------- */
+
+@import url(./components/contact/contact.css);
+/* -------------------------------Auth--------------------------------- */
+
+@import url(./auth/auth.css);
+/* -------------------------------message--------------------------------- */
+
+@import url(./components/message/message.css);

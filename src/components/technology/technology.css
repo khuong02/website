@@ -1,0 +1,141 @@
+.box-container {
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    /* top: -25px; */
+    background-color: #000;
+    overflow: hidden;
+}
+
+/* .box-container .__box-container {
+    width: 100%;
+    height: 100%;
+}
+
+.box-container .__box-container img {
+    max-width: 100%;
+}
+
+
+
+/* ------------------------dash-board------------------------------ */
+
+.box-dashboard {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #000; */
+    /* padding-top: 15px; */
+}
+
+.box-dashboard .box-header {
+    width: 100%;
+    text-align: center;
+}
+
+.box-dashboard .box-header .header-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 1.3px;
+    color: #fff;
+}
+
+.box-dashboard .box-header .header-item {
+    display: inline-block;
+    width: 290px;
+    background-color: #fff;
+    margin: 0 0.448%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.box-dashboard .box-header .header-item p {
+    margin: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+    font-size: 18px;
+    color: #000!important;
+}
+
+.box-dashboard .box-header .header-item .__header-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -15px;
+    padding: 1%;
+}
+
+.box-dashboard .box-header .header-item .__header-item .charts {
+    position: relative;
+    right: 5%;
+    /* padding: 1%; */
+}
+
+.box-dashboard .box-header .header-item .__header-item .note {
+    display: inherit;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box-dashboard .box-header .header-item .__header-item .note .__note {
+    display: flex;
+    flex-direction: row!important;
+    align-items: center;
+    position: relative;
+    right: 14%;
+    color: #000!important;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box-dashboard .box-header .header-item .__header-item .note .__note div {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.box-dashboard .box-header .header-item .__header-item .note .__note:nth-child(2) div {
+    background-color: rgb(136, 132, 216);
+}
+
+.box-body {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box-body .body-title {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.box-body .box-body-container {
+    display: flex;
+}
+
+.box-body .box-body-container .box-body-left {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    bottom: 45px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 1%;
+}
+
+.box-body .box-body-container .table {
+    width: 64.5%;
+    border-radius: 15px;
+    height: 400px;
+    position: relative;
+    bottom: 45px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-left: 1%;
+}

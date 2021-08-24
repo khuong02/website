@@ -1,0 +1,114 @@
+.about-page {
+    overflow: hidden;
+}
+
+.box-about {
+    display: flex;
+    margin-top: 50px;
+    align-items: flex-start;
+}
+
+.box-about .box-left {
+    width: 50%;
+}
+
+.box-about .box-right {
+    width: 50%;
+}
+
+.box-about .box-right h3 {
+    margin-top: 0;
+}
+
+.box-about .box-right div, .row3 .box-content div {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.box-about .box-right div a, .row3 .box-content div a {
+    padding: 15px 20px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    transition: 0.3s ease-in-out;
+}
+
+.box-about .box-right div a:hover, .row3 .box-content div a:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+.box-about img {
+    clip-path: polygon(0 0, 100% 0, 100% -20%, 18% 100%, 0 100%);
+    max-width: 100%;
+}
+
+/* ------------------------row2------------------------ */
+
+.row2 {
+    /* display: flex; */
+    margin-top: 10em;
+    position: relative;
+    /* margin-bottom: 26.5%; */
+}
+
+.row2 .box-content {
+    width: 55%;
+    padding-left: 8em;
+}
+
+.row2 .box-content h3 {
+    margin-top: 0;
+}
+
+/* ------------------------row3------------------------ */
+
+.row3 {
+    position: relative;
+}
+
+.row3 .image {
+    position: relative;
+}
+
+.row3 .image .skew {
+    width: 100%;
+    /* height: 480px; */
+    position: relative;
+}
+
+.row3 .image .skew:nth-child(1) {
+    position: absolute;
+    right: -19.5%;
+    width: 62%;
+    clip-path: polygon(47% 0%, 100% 0%, 70% 100%, 18% 100%);
+    top: -40.7%;
+}
+
+.row3 .image .skew:nth-child(2) {
+    position: relative;
+    right: 35%;
+    clip-path: polygon(40% 0%, 100% 0%, 70% 100%, 8% 100%);
+    margin-top: 24%;
+}
+
+.row3 .image .skew:nth-child(3) {
+    position: absolute;
+    top: -5%;
+    left: 29.5%;
+    clip-path: polygon(39% 0%, 100% 0%, 70% 100%, 9% 100%);
+}
+
+.row3 .image .skew:nth-child(4) {
+    clip-path: polygon(0 0, 76% 0, 50% 100%, 0% 100%);
+    position: relative;
+    right: 41%;
+    margin-top: 5px;
+}
+
+.row3 .box-content {
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
