@@ -6,8 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
-import axios from 'axios'
-axios.defaults.baseURL = 'https://website-chat-server.herokuapp.com/';
+import "./axiosConfig";
 
 ReactDOM.render(
   <React.StrictMode>
