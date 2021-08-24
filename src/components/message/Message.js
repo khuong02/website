@@ -31,7 +31,7 @@ const Message = () => {
   const { dataUser } = list;
 
   useEffect(() => {
-    socket.current = io("http://localhost:5000", {
+    socket.current = io("https://website-chat-server.herokuapp.com/", {
       transports: ["websocket", "polling", "flashsocket"],
     });
 
