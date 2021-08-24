@@ -2,9 +2,9 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = function(app) {
   app.use(
-    '/api',
+    '/',
     createProxyMiddleware({
-      target: 'https://website-chat-server.herokuapp.com/',
+      target: 'https://website-connect-chat.herokuapp.com/',
       changeOrigin: true,
     })
   );
