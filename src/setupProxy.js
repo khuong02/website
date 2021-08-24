@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/',
     createProxyMiddleware({
-      target: 'https://website-connect-chat.herokuapp.com/',
+      target: 'https://website-chat-server.herokuapp.com/',
       changeOrigin: true,
     })
   );
