@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
     "axios": "^0.21.1",
+    "http-proxy-middleware": "^2.0.1",
     "query-string": "^7.0.1",
     "react": "^17.0.2",
     "react-clip-path": "^0.0.6",
@@ -58,6 +59,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://website-chat-server.herokuapp.com/"
+  }
 }
