@@ -63,7 +63,7 @@ const AboutHtml = () => {
             <div className="box-about">
               <div className="box-left" data-aos="fade-right">
                 <img
-                  src="https://www.lamborghini.com/sites/it-en/files/2021-05/museum_layout_01.jpg"
+                  src="https://res.cloudinary.com/daovinhkhuong/image/upload/v1629879949/newProject/museum_layout_01_thgkyo.jpg"
                   alt=""
                 />
               </div>
@@ -138,25 +138,25 @@ const AboutHtml = () => {
               <div className="image">
                 <div className="skew" data-aos="fade-left">
                   <img
-                    src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/museum/2021/05_05_refresh/layout/museum_s_01.jpg"
+                    src="https://res.cloudinary.com/daovinhkhuong/image/upload/v1629875236/newProject/museum_s_01_wxx94y.jpg"
                     alt=""
                   />
                 </div>
                 <div className="skew" data-aos="fade-right">
                   <img
-                    src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/museum/2021/05_05_refresh/layout/museum_s_03.jpg"
+                    src="https://res.cloudinary.com/daovinhkhuong/image/upload/v1629875198/newProject/museum_s_03_tiuial.jpg"
                     alt=""
                   />
                 </div>
                 <div className="skew" data-aos="fade-left">
                   <img
-                    src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/museum/2021/05_05_refresh/layout/museum_s_02.jpg"
+                    src="https://res.cloudinary.com/daovinhkhuong/image/upload/v1629875255/newProject/museum_s_02_yjpin4.jpg"
                     alt=""
                   />
                 </div>
                 <div className="skew" data-aos="fade-right">
                   <img
-                    src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/museum/2021/05_05_refresh/layout/museum_s_04.jpg"
+                    src="https://res.cloudinary.com/daovinhkhuong/image/upload/v1629875277/newProject/museum_s_04_ivbsmw.jpg"
                     alt=""
                   />
                 </div>
