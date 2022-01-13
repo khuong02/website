@@ -35,7 +35,8 @@ export const UserProvider = ({ children }) => {
         setUser(res.data);
         // user.current = state;
       } catch (err) {
-        err.response.data.msg && setLogin(true);
+        //err.response.data.msg && setLogin(true);
+        console.log(err.response);
       }
     };
     getUser();
